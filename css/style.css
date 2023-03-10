@@ -270,6 +270,7 @@ body {
    }
    .fresh__title {
       font-size: 32px;
+      text-align: start;
    }
    .fresh__text {
       font-size: 14px;
@@ -405,7 +406,7 @@ body {
       margin: 0px 0px 20px 0px;
    }
    .baking__header {
-      text-align: center;
+      text-align: start;
    }
 }
 @media (max-width: 480px) {
@@ -492,6 +493,9 @@ body {
    }
    .baked__item > *:not(:last-child) {
       margin: 0px 0px 29px 0px;
+   }
+   .item-baked__img {
+      align-self: center;
    }
    .item-baked {
       padding: 24px 30px 24px 32px;
